@@ -10,4 +10,5 @@
     <string name="settings_order_by_popular_value" translatable="false">popular</string>
     <string name="settings_order_by_top_rated_label">Top rated</string>
     <string name="settings_order_by_top_rated_value" translatable="false">top_rated</string>
+    <string name="poster">Poster</string>
 </resources>

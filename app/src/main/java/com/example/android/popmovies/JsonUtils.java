@@ -1,3 +1,8 @@
+/*
+ * Created by Karolin Fornet.
+ * Copyright (c) 2018.  All rights reserved.
+ */
+
 package com.example.android.popmovies;
 
 import android.text.TextUtils;
@@ -128,7 +133,6 @@ public final class JsonUtils {
         } catch (IOException e) {
             Log.e(LOG_TAG, "Problem making the HTTP request.", e);
         }
-        List<Movie> movies = extractFeatureFromJson(jsonResponse);
-        return movies;
+        return extractFeatureFromJson(jsonResponse);
     }
 }

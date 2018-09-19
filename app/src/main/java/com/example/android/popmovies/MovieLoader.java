@@ -1,3 +1,8 @@
+/*
+ * Created by Karolin Fornet.
+ * Copyright (c) 2018.  All rights reserved.
+ */
+
 package com.example.android.popmovies;
 
 import android.content.AsyncTaskLoader;
@@ -24,8 +29,6 @@ public class MovieLoader extends AsyncTaskLoader<List<Movie>> {
         if (mUrl == null) {
             return null;
         }
-
-        List<Movie> movies = JsonUtils.fetchMovieData(mUrl);
-        return movies;
+        return JsonUtils.fetchMovieData(mUrl);
     }
 }

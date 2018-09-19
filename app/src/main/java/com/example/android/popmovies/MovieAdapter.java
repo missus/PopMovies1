@@ -1,3 +1,8 @@
+/*
+ * Created by Karolin Fornet.
+ * Copyright (c) 2018.  All rights reserved.
+ */
+
 package com.example.android.popmovies;
 
 import android.content.Context;
@@ -14,7 +19,7 @@ import java.util.List;
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> {
 
-    private List<Movie> mMovies = new ArrayList<>();
+    private List<Movie> mMovies;
     private final LayoutInflater mInflater;
     private final ItemClickListener mClickListener;
     private final Context mContext;

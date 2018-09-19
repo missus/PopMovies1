@@ -1,3 +1,8 @@
+/*
+ * Created by Karolin Fornet.
+ * Copyright (c) 2018.  All rights reserved.
+ */
+
 package com.example.android.popmovies;
 
 import java.io.Serializable;
